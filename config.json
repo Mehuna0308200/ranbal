@@ -1,6 +1,16 @@
 {
-    "bot_token": "8160560841:AAFMXzS4yhXU7FcQpJyBcI9WKy_L-wFJGtY",
-    "admin_id": -1002356850946,
-    "logging": true
+  "bot_token": "8160560841:AAZFMXzS4yhXU7FcQpJyBcI9WKy_L-wFJGtY",
+  "admin_id": -1002356850946,
+  "logging": true,
+  "approved_chats": [],
+  "commands": {
+    "/approve": {
+      "description": "Approve a chat",
+      "action": "add_chat_to_approved_list"
+    },
+    "/disapprove": {
+      "description": "Disapprove a chat",
+      "action": "remove_chat_from_approved_list"
+    }
+  }
 }
-  
